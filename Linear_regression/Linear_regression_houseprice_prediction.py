@@ -32,7 +32,7 @@ def gradient_descent(X,y,theta,lr=0.01,epoches=100):
     return theta,co_history
 #训练过程
 theta=np.zeros(X.shape[1])
-lr=0.01
+lr=0.001
 epoches=5000
 theta,co_history=gradient_descent(X,y,theta,lr,epoches)
 
